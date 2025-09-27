@@ -8,6 +8,10 @@
 
 本項目為設計一款 AI 占星終端產品，此款產品具有喚醒、聲紋辨識、占星、用戶星盤計算等功能，程式碼分為伺服器端與客戶端，此處僅展示單機版。本項目在 `macOS 15.6.1` 上，以 `python 3.13.3` 版本完成測試。
 
+## 產品架構
+
+![product arch](./image/product_arch.png)
+
 ## 項目結構
 ```
 .
@@ -38,3 +42,5 @@
 - 聲紋辨識：[spkrec-ecapa-voxceleb](https://huggingface.co/speechbrain/spkrec-ecapa-voxceleb)
 
 ## 項目流程圖
+
+![program workflow](./image/program_workflow.png)
